@@ -1,0 +1,8 @@
+AADUserRiskEvents
+| where TimeGenerated > ago(30d)
+| project TimeGenerated,
+          UserPrincipalName,
+          RiskLevel,
+          RiskState,
+          RiskEventType
+| order by TimeGenerated desc

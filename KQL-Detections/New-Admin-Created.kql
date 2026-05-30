@@ -1,0 +1,6 @@
+AuditLogs
+| where TimeGenerated > ago(30d)
+| where OperationName contains "Add member to role"
+| extend Actor = tostring(InitiatedBy.user.userPrincipalName)
+| project TimeGenerated, Actor, TargetResources, OperationName
+| order by TimeGenerated desc

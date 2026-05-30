@@ -1,0 +1,6 @@
+DeviceProcessEvents
+| where Timestamp > ago(7d)
+| where ProcessCommandLine contains "-enc"
+    or ProcessCommandLine contains "DownloadString"
+    or ProcessCommandLine contains "FromBase64String"
+| project Timestamp, DeviceName, AccountName, ProcessCommandLine

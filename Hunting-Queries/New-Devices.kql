@@ -1,0 +1,4 @@
+DeviceInfo
+| where Timestamp > ago(30d)
+| summarize LatestSeen=max(Timestamp) by DeviceName, OSPlatform
+| order by LatestSeen desc
