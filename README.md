@@ -34,6 +34,25 @@ Coming Soon
 - Detection Engineering
 - Security Monitoring
 - SOC Operations
+## Skills Demonstrated
+
+- Microsoft Sentinel
+- Microsoft Defender XDR
+- KQL
+- Detection Engineering
+- Threat Hunting
+- Incident Response
+- MITRE ATT&CK
+- Security Operations Center (SOC)
+
+## Future Enhancements
+
+- Password Spray Detection
+- DNS Exfiltration Detection
+- Azure PIM Abuse Detection
+- Service Principal Monitoring
+- Defender AV Tampering Detection
+- Sentinel Workbook Dashboards
 
 ## Author
 
