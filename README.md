@@ -1,10 +1,12 @@
 # Microsoft Sentinel & Defender Starter Pack
 
+A collection of Microsoft Sentinel detections, hunting queries, incident response runbooks, workbook designs, and security documentation for SOC Analysts, Security Engineers, and Incident Responders.
+
 ## Overview
 
-This repository contains practical Microsoft Sentinel and Microsoft Defender content for SOC Analysts, Security Engineers, and Incident Responders.
+This repository contains practical Microsoft Sentinel and Microsoft Defender content designed to improve detection engineering, threat hunting, and incident response operations.
 
-## Included Content
+## Features
 
 ### Detection Rules
 
@@ -17,23 +19,31 @@ This repository contains practical Microsoft Sentinel and Microsoft Defender con
 
 ### Hunting Queries
 
-Coming Soon
+- Defender Alerts Summary
+- Top Failed Logins
+- Admin Activity
+- Suspicious Processes
+- New Devices
 
-### Incident Runbooks
+### Incident Response Runbooks
 
-Coming Soon
+- Brute Force Investigation
+- Phishing Investigation
+- Malware Investigation
+- Impossible Travel Investigation
+
+### Documentation
+
+- Deployment Guide
+- MITRE ATT&CK Mapping
+- Project Roadmap
 
 ### Workbooks
 
-Coming Soon
+- SOC Dashboard Design
+- Executive Dashboard Design
+- Compliance Dashboard Design
 
-## Use Cases
-
-- Threat Hunting
-- Incident Response
-- Detection Engineering
-- Security Monitoring
-- SOC Operations
 ## Skills Demonstrated
 
 - Microsoft Sentinel
@@ -42,8 +52,18 @@ Coming Soon
 - Detection Engineering
 - Threat Hunting
 - Incident Response
-- MITRE ATT&CK
+- MITRE ATT&CK Framework
 - Security Operations Center (SOC)
+- Azure Security Monitoring
+
+## Use Cases
+
+- Detect suspicious authentication activity
+- Investigate phishing incidents
+- Monitor privileged account changes
+- Hunt for suspicious processes
+- Improve SOC visibility with workbooks
+- Support incident response investigations
 
 ## Future Enhancements
 
@@ -52,7 +72,7 @@ Coming Soon
 - Azure PIM Abuse Detection
 - Service Principal Monitoring
 - Defender AV Tampering Detection
-- Sentinel Workbook Dashboards
+- SharePoint Data Exfiltration Detection
 
 ## Author
 
@@ -60,6 +80,6 @@ Yves Bwansa
 
 Cyber Security Engineer
 
-## Disclaimer
+## License
 
-Test all content before deploying into production environments.
+MIT License
